@@ -14,6 +14,7 @@ function Navigation() {
               <img
               src={pianoImg}
               alt="Piano"
+              width="5%"
             />
             Piano Play
             </Link>
