@@ -51,7 +51,7 @@ code {
   color: yellowgreen;
 }
 
-.about {
+#about {
   display: flex;
   justify-content: center;
   color: yellowgreen;

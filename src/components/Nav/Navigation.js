@@ -1,39 +1,46 @@
 import React from 'react';
-import { Nav } from 'reactstrap';
-import { Link } from 'react-router-dom';
 import pianoImg from "../../assets/piano.png";
 
 function Navigation() {
-      return (
+    return (
 
-      <nav className="navbar" role="navigation">
-        <Nav className="w-100">
-          <div className="d-flex justify-content-around w-100">
-
-            <Link className="title" to="/">
-              <img
+      <header className="flex-row">
+        <h2>
+          <a data-testid="link" href="/">
+          <img
               src={pianoImg}
               alt="Piano"
               width="5%"
             />
             Piano Play
-            </Link>
+          </a>
+        </h2>
 
-            <Link className='link' to="/">
-              Home
-            </Link>
+        <nav>
 
-            <Link className='link' to="/piano">
-              Piano
-            </Link>
+          <ul className="flex-row">
+            <li className='mx-2'>
+              <a data-testid="about" href="#about">
+                About
+              </a>
+            </li>
 
-            <Link className='link' to="/contact">
-              Contact
-            </Link>
+            <li className='flex-row'>
+              <a data-testid="piano" href="#piano">
+                Piano
+              </a>
+            </li>
 
-          </div>
-        </Nav>
-      </nav>
+            <li className='Contact'>
+              <a data-testid="contact" href="#contact">
+                Contact
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </header>
     );
   }
 
