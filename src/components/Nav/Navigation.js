@@ -4,9 +4,8 @@ import pianoImg from "../../assets/piano.png";
 function Navigation() {
     return (
 
-      <header className="flex-row">
-        <h2>
-          <a data-testid="link" href="/">
+      <header className="d-flex justify-content-around w-100">
+          <a data-testid="link" className='link' href="/">
           <img
               src={pianoImg}
               alt="Piano"
@@ -14,31 +13,18 @@ function Navigation() {
             />
             Piano Play
           </a>
-        </h2>
 
-        <nav>
+            <a data-testid="about" className='link' href="#about">
+              About
+            </a>
 
-          <ul className="flex-row">
-            <li className='mx-2'>
-              <a data-testid="about" href="#about">
-                About
-              </a>
-            </li>
+            <a data-testid="piano" className='link' href="#piano">
+              Piano
+            </a>
 
-            <li className='flex-row'>
-              <a data-testid="piano" href="#piano">
-                Piano
-              </a>
-            </li>
-
-            <li className='Contact'>
-              <a data-testid="contact" href="#contact">
-                Contact
-              </a>
-            </li>
-
-          </ul>
-        </nav>
+            <a data-testid="contact" className='link' href="#contact">
+              Contact
+            </a>
 
       </header>
     );

@@ -22,52 +22,36 @@ code {
   font-size: 36px;
 }
 
-.title:hover {
-  color: yellowgreen;
-}
-
-.navbar {
-  background-color: #40826d;
-}
-
 .title.active {
   color: #fff;
 }
 
 .link {
   padding-top: 20px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   padding: 20px;
   font-size: 24px;
-}
-
-.link:hover {
-  color: yellowgreen;
   font-weight: bold;
-}
-
-.link.active {
-  color: yellowgreen;
 }
 
 #about {
   display: flex;
   justify-content: center;
-  color: yellowgreen;
+  color: #000;
 }
 
 .section {
   margin: 0 auto;
   text-align: center;
-  background-color: #40826d;
+  background-color: #000;
   padding: 25px;
   color: #fff;
   width: 80%;
 }
 
 .footer {
-  background-color: #40826d;
+  background-color: #000;
   color: #fff;
   font-size: 20px;
   padding: 40px;
@@ -78,7 +62,7 @@ code {
 }
 
 .contact {
-  background-color: #40826d;
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 50px;
@@ -94,13 +78,13 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: yellowgreen;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 
 button:hover {
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #fff;
   border: none;
   font-weight: bold;
   padding-top: 15px;

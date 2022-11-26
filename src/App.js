@@ -12,9 +12,9 @@ function App() {
   return (
     <div>
       <Navigation />
-        <About />
-          <Piano />
-        <Contact />
+      <About />
+      <Piano />
+      <Contact />
       <Footer />
     </div>
   );
