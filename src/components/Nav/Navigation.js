@@ -4,7 +4,7 @@ import pianoImg from "../../assets/piano.png";
 function Navigation() {
     return (
 
-      <header className="d-flex justify-content-around w-100">
+      <header className="header">
           <a data-testid="link" className='link' href="/">
           <img
               src={pianoImg}

@@ -11,8 +11,9 @@ code {
     monospace;
 }
 
-.navbar {
-  text-align: center;
+.header {
+  display: flex;
+  justify-content: space-around;
 }
 
 .title {
@@ -101,6 +102,7 @@ button[disabled] {
 .piano-container {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 .piano-natural-key {
